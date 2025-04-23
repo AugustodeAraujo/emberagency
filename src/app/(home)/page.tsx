@@ -1,13 +1,13 @@
 import Container from "@/components/Container";
 import Header from "@/components/Header";
-import { Button } from "@/components/ui/button";
+
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowUpRight, ArrowDownToLine, ArrowDown, Flame } from "lucide-react";
+import { ArrowUpRight, Flame } from "lucide-react";
 import Image from "next/image";
 
 import logo from "../../../public/ember-ov-logo.webp";
 import bg from "../../../public/bg.png";
-import pin from "../../../public/pin.png";
+
 import team from "../../../public/fireteam.png";
 
 export default function Home() {
