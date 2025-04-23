@@ -138,3 +138,29 @@ html {
 .animate-tilt {
   animation: tilt 10s infinite linear;
 }
+
+@keyframes ember-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px #6f1d05) drop-shadow(0 0 12px #fe4108);
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    filter: drop-shadow(0 0 8px #fe4108) drop-shadow(0 0 18px #fe4108);
+    transform: scale(1.1);
+    transform: translateY(-30px);
+    opacity: 1;
+  }
+}
+
+.flame-glow {
+  animation: ember-glow 3s ease-in-out infinite;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* remove qualquer fundo ou forma */
+  background: none !important;
+  padding: 0 !important;
+  border-radius: 0;
+}

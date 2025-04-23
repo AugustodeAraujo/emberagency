@@ -31,8 +31,7 @@ export default function Header() {
   };
 
   return (
-    <header className='fixed w-10/12 bg-black/20 text-[#DEDCDD] lg:w-1/2 mx-auto left-0 right-0 z-50 flex justify-between items-center py-4 px-5 text-sm uppercase backdrop-blur-lg rounded-full shadow mt-4'>
-
+    <header className='fixed w-10/12 bg-black/20 text-[#DEDCDD] lg:w-1/2 mx-auto left-0 right-0 z-50 flex justify-between items-center py-8 lg:py-6 px-7 text-sm uppercase backdrop-blur-lg rounded-full shadow mt-4'>
       {/* ESQUERDA */}
       <div className='hidden lg:flex gap-6 relative'>
         {navItems.slice(0, 2).map((item, i) => {
@@ -68,8 +67,8 @@ export default function Header() {
       </div>
 
       {/* CENTRO */}
-      <div className='absolute left-1/2 -translate-x-1/2 text-sm tracking-widest font-mono text-center px-4 whitespace-nowrap'>
-        THE WEB<span className='line-through'> FCKN </span> STUDIO
+      <div className='absolute left-1/2 -translate-x-1/2 text-sm tracking-widest font-mono text-center px-4 whitespace-nowrap font-black'>
+        EMBER STUDIO Co.
       </div>
 
       {/* DIREITA */}
